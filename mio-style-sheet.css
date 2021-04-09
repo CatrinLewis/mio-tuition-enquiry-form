@@ -1,0 +1,51 @@
+h3, p, label {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  text-align: center;
+}
+
+input[type=text] {
+  border: 2px solid #1e90ff;
+}
+
+input[type=email] {
+  border: 2px solid #1e90ff;
+}
+
+input[type=checkbox] {
+  border: 2px solid #1e90ff;
+}
+
+input[type=radio] {
+  border: 2px solid #1e90ff;
+}
+
+.space {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 25px;
+}
+
+.space1 {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.space2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.logo-width {
+  width: 20%;
+}
+
+.hidden {
+  display: none;
+}
+
+/* .checkbox-border {
+  outline: 2px solid #1e90ff;
+} */

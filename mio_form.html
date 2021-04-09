@@ -1,0 +1,167 @@
+<!DOCTYPE>
+<html>
+
+  <head>
+    <title>Tuition Enquiry Form - Music in Offices</title>
+    <meta name ="viewport" content ="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="mio-style-sheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src ="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="mio-jquery.js"></script>
+  </head>
+
+  <body>
+    <div class="hide-post-submit">
+      <div class="hide-post-next">
+        <div>
+          <img src="file://C:/Users/catri/Desktop/mio-enquiry-form/mio-logo.png" class="mx-auto d-block logo-width space2">
+        </div>
+
+        <form>
+          <div class="row space">
+            <div class="col-sm-6">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" placeholder="Enter name here" id="name">
+            </div>
+            <div class="col-sm-6">
+              <label for="emailAddress">Email address:</label>
+              <input type="email" class="form-control" placeholder="Enter email here" id="emailAddress">
+            </div>
+            <div class="col-sm-12 space">
+              <label for="workplace">Workplace:</label>
+              <input type="text" class="form-control" placeholder="Enter workplace here" id="workplace">
+            </div>
+          </div>
+        </form>
+
+        <div>
+          <p class="space">I am interested in:</p>
+        </div>
+
+
+        <div class="form-check form-check-inline space1 col-sm-1">
+            <!-- <label class="checkbox-border"><input class="form-check-input" type="checkbox" id="singing" value="singing"></label> -->
+          <input class="form-check-input" type="checkbox" id="singing" value="singing">
+          <label class="form-check-label" for="singing">Singing</label>
+        </div>
+        <div class="form-check form-check-inline space1 col-sm-1">
+          <input class="form-check-input" type="checkbox" id="piano" value="piano">
+          <label class="form-check-label" for="piano">Piano</label>
+        </div>
+        <div class="form-check form-check-inline space1 col-sm-1">
+          <input class="form-check-input" type="checkbox" id="guitar" value="guitar">
+          <label class="form-check-label" for="guitar">Guitar</label>
+        </div>
+        <div class="form-check form-check-inline space1 col-sm-1">
+          <input class="form-check-input" type="checkbox" id="drums" value="drums">
+          <label class="form-check-label" for="drums">Drums</label>
+        </div>
+        <div class="form-check form-check-inline space1 col-sm-1">
+          <input class="form-check-input" type="checkbox" id="violin" value="violin">
+          <label class="form-check-label" for="violin">Violin</label>
+        </div>
+        <div class="form-check form-check-inline space1 col-sm-1">
+          <input class="form-check-input" type="checkbox" id="cello" value="cello">
+          <label class="form-check-label" for="cello">Cello</label>
+        </div>
+        <div class="form-check form-check-inline space1 col-sm-1">
+          <input class="form-check-input" type="checkbox" id="saxophone" value="saxophone">
+          <label class="form-check-label" for="saxophone">Saxophone</label>
+        </div>
+        <div class="form-check form-check-inline space1 col-sm-1">
+          <input class="form-check-input" type="checkbox" id="clarinet" value="clarinet">
+          <label class="form-check-label" for="clarinet">Clarinet</label>
+        </div>
+        <div class="form-check form-check-inline space1 col-sm-1">
+          <input class="form-check-input" type="checkbox" id="trumpet" value="trumpet">
+          <label class="form-check-label" for="trumpet">Trumpet</label>
+        </div>
+        <div class="form-check form-check-inline space1 col-sm-1">
+          <input class="form-check-input" type="checkbox" id="harp" value="harp">
+          <label class="form-check-label" for="harp">Harp</label>
+        </div>
+        <div class="form-check form-check-inline space1 col-sm-1">
+          <input class="form-check-input" type="checkbox" id="other" value="other">
+          <label class="form-check-label" for="other">Other</label>
+        </div>
+
+        <div class="col-sm-12 space">
+          <label for="instrument">If other, please specify:</label>
+          <input type="text" class="form-control" placeholder="Enter instrument here" id="instrument">
+        </div>
+
+        <div>
+          <button class="btn btn-primary space1 space2" type="submit" id="next-button">Next</button>
+        </div>
+      </div>
+
+      <div class="hidden second-page">
+        <img src="file://C:/Users/catri/Desktop/mio-enquiry-form/mio-logo.png" class="mx-auto d-block logo-width space2">
+        <div>
+          <p class="space">Have you previously had {} lessons?</p>
+        </div>
+
+        <div class="form-check space1">
+          <input class="form-check-input" type="radio" name="prevPlayed" id="prevPlayedYes" value="yes" checked>
+          <label class="form-check-label" for="prevPlayedYes">
+            Yes
+          </label>
+        </div>
+        <div class="form-check space1">
+          <input class="form-check-input" type="radio" name="prevPlayed" id="prevPlayedNo" value="no">
+          <label class="form-check-label" for="prevPlayedNo">
+            No
+          </label>
+        </div>
+        <div class="col-sm-12 space">
+          <label for="prevExperienceInstrument">If yes, please give details:</label>
+          <input type="text" class="form-control" id="prevExperienceInstrument">
+        </div>
+
+        <div>
+          <p class="space">Have you played any other instrument previously?</p>
+        </div>
+
+        <div class="form-check space1">
+          <input class="form-check-input" type="radio" name="otherInstrument" id="otherInstrumentYes" value="yes" checked>
+          <label class="form-check-label" for="otherInstrumentYes">
+            Yes
+          </label>
+        </div>
+        <div class="form-check space1">
+          <input class="form-check-input" type="radio" name="otherInstrument" id="otherInstrumentNo" value="no">
+          <label class="form-check-label" for="otherInstrumentNo">
+            No
+          </label>
+        </div>
+        <div class="col-sm-12 space">
+          <label for="prevExperienceOtherInstrument">If yes, please give details:</label>
+          <input type="text" class="form-control" id="prevExperienceOtherInstrument">
+        </div>
+
+        <div>
+          <input class="btn btn-primary space1 space2" type="submit" value="Submit" id="submit-button">
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="container hidden">
+      <div>
+        <img src="file://C:/Users/catri/Desktop/mio-enquiry-form/mio-logo.png" class="mx-auto d-block logo-width space2">
+      </div>
+
+      <div>
+        <h3 class="space1 space2">Thank you for your enquiry! We will be in touch soon.<br> In the meantime, check out our<a href="https://www.musicinoffices.com/events/" target="_blank"> events</a> and join the MIO community!</h3>
+      </div>
+
+      <div>
+        <img src="file://C:/Users/catri/Desktop/mio-enquiry-form/mio-icon.png" class="mx-auto d-block logo-width space2">
+      </div>
+    </div>
+
+  </body>
+
+</html>
